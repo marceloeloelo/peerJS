@@ -1,4 +1,4 @@
-var serverPort = process.argv.pop();
+var serverPort = process.env.PORT || process.argv.pop();
 serverPort = isNaN(serverPort) ? 3000 : serverPort;
 
 var PeerServer = require('peer').PeerServer;
