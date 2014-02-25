@@ -1,0 +1,12 @@
+{
+  "name": "PeerJS",
+  "description": "",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "peer": "0.2.0"
+  }
+  "engines" : {
+    "node" : "0.10.18"
+  }
+}
