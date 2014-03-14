@@ -6,7 +6,11 @@
   "dependencies": {
     "peer": "0.2.0"
   },
-  "engines" : {
-    "node" : "0.10.x"
+  "engines": {
+    "node": "0.10.x"
+  },
+  "subdomain": "stream-io-peer-js",
+  "scripts": {
+    "start": "node server.js"
   }
 }
